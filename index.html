@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Shopping Cart - Accessories eCommerce Store</title>
+ <link rel="stylesheet" href="vendor/bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <!-- Navbar Start -->
+ <nav class="myNav">
+  <span class="navShowIcon">
+   <i class="fas fa-bars"></i>
+  </span>
+  <div class="navLogo">
+   <span class="text-primary">Access<span class="text-success">ories</span></span>
+  </div>
+  <div class="navCartIcon">
+   <i class="fas fa-shopping-cart"></i>
+   <div class="cartItems">0</div>
+  </div>
+ </nav>
+ <!-- Navbar End -->
+
+ <!-- Sidebar Nav Start -->
+ <section class="sidebarNav">
+  <span class="close sidebarNavClose">
+   <i class="fas fa-times"></i>
+  </span>
+  <ul>
+   <li><a href="#home">Home</a></li>
+   <li><a href="#products">Products</a></li>
+   <li><a href="#">About</a></li>
+   <li><a href="#">Contact</a></li>
+   <li><a href="#">Privacy Policy</a></li>
+  </ul>
+ </section>
+ <!-- Sidebar Nav End -->
+
+ <!-- Homepage Start -->
+ <section id="home">
+  <div class="homeContainer">
+   <h1 class="display-4">Accessories Store</h1>
+   <a href="#products" class="btn btn-outline-primary btn-lg">Show Now</a>
+  </div>
+ </section>
+ <!-- Homepage End -->
+
+ <!-- Products Start -->
+ <section id="products" class="p-5 text-center">
+  <h1 class="display-5 text-primary">Our Products</h1>
+
+  <div class="productsContainer py-5">
+   <!-- Here display all products on web page -->
+  </div>
+
+ </section>
+ <!-- Products End -->
+
+ <!-- Cart Start -->
+ <section id="cart" class="cart">
+  <div class="cartContainer">
+   <div class="cart-top">
+    <span class="cartClose close">
+     <i class="fas fa-times"></i>
+    </span>
+    <h5 class="text-info m-0">Your Cart:
+     <span class="text-primary">total
+      $<span class="totalPrice">0</span></span>
+    </h5>
+   </div>
+
+   <!-- here display all cart products  -->
+   <div class="cart-center"></div>
+
+   <div class="cart-bottom">
+    <button class="btn btn-outline-info mx-1 clearCart">Clear Cart</button>
+    <a href="https://www.paypal.com/" class="btn btn-outline-info mx-1">CheckOut</a>
+   </div>
+  </div>
+ </section>
+ <!-- Cart End -->
+
+ <!-- are you sure modal start -->
+ <div class="removeSingleCart bg-danger">
+  <h4 class="text-warning mb-2">if you want to remove this cart from your cart</h4>
+  <p>
+   <button class="btn btn-warning p-1 px-3 mx-2 btn-sm noRemoveCart">No</button>
+   <button class="btn btn-warning p-1 px-3 mx-2 btn-sm yesRemoveCart">Yes</button>
+  </p>
+ </div>
+ <p class="addedNotification">Added</p>
+ <!-- are you sure modal end -->
+
+ <!-- Content full cdn -->
+ <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+ <!-- neccessary Scripts -->
+ <script src="vendor/all.min.js"></script>
+ <script src="script.js"></script>
+</body>
+
+</html>

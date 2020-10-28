@@ -256,13 +256,13 @@ body {
 .decrement {
  z-index: 111;
  cursor: pointer;
- font-size: 2rem;
+ font-size:1.7rem;
  margin: 0px !important;
  background: linear-gradient(to right, #ee0686, #df073d);
  color: #fff;
  width: 27px;
  height: 27px;
- line-height: 18px;
+ line-height:21px;
  border-radius: 50%;
 }
 

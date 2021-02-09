@@ -1,4 +1,4 @@
-#### <a href="#"> eCommerce Shopping Cart Functionality made with (Pure JavaScript) 😎 </a>
+#### <a href="#"> eCommerce Shopping Cart Functionality made with (Pure JavaScript, CSS Flexbox, CSS Grid & more...) 😎 </a>
 ###### `eCommerce Cart` [See Live Preview](https://stacksagar.github.io/eCommerce-shopping-cart "project of @stacksagar")
 
 ### Connect With Me 👇
